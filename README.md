@@ -30,7 +30,7 @@
 
 # Ejercicio – Control de material reciclable
 
-Un centro de reciclaje recibe durante una jornada una cantidad variable de cargas de material. El peso de cada carga se registra en kilogramos y debe encontrarse entre **5 y 200 kg**.
+Un centro de reciclaje recibe durante una jornada una cantidad *n* de cargas de material. El peso de cada carga se registra en kilogramos y debe encontrarse entre **5 y 200 kg**.
 
 La cantidad de cargas que se registrará debe estar entre **3 y 20**.
 
@@ -103,3 +103,26 @@ Para este caso:
 El programa también será probado con otros valores, incluyendo datos inválidos y valores repetidos.
 
 ---
+
+
+ # ANÁLISIS
+
+ ## ENTRADAS
+- cantidad variable de cargas
+- peso de cada una de las cargas
+
+## PROCESOS
+- lectura,revision y guardado de que la cantidad n esté en el rango (3-20);
+- lectura y revision que cada uno de los pesos esté en el rango (5 - 200)
+- lectura y guardado de cada uno de los pesos en el arreglo
+- filtrar la cantidad de cargas en el rango (5-80)
+- filtar la cantidad de cargas superiores al limite
+- sumatoria total
+- sacar el promedio de los pesos
+- identificiar el mayor peso
+- identificar la cantidad de cargas superiores al promedio
+- identificar la primer aparicion del mayor peso
+- realizar lista con cada uno de los pesos
+##
+
+
