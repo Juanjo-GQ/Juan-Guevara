@@ -9,12 +9,6 @@ public class CentroReciclaje {
     public static void main(String[] args) throws Exception {
         Scanner leer = new Scanner (System.in);
 
-
-
-
-
-
-
     }
 
     public static int leerCantidad(Scanner leer, int min, int max) {
@@ -79,22 +73,22 @@ public class CentroReciclaje {
     }
 
     public static double encontrarMayor(double[] pesos){
-        
-
-
+        double mayor = pesos[0];
+        for (int i = 1; i < pesos.length; i++) {
+            if (pesos[i] > mayor) {
+                mayor = pesos[i];
+            }
+        }
+        return mayor;
     }
 
-
-
-
-
-
-
-
-    
-
-
-
-
-
-}
+    public static int mayoresPromedio(int[] pesos, double mayor) {
+        int conta = 0;
+        for (int i = 0; i < pesos.length; i++) {
+            if (pesos[i] > mayor) {
+                conta++;
+            }
+        }
+        return conta;
+    }
+    }
