@@ -112,16 +112,24 @@ El programa también será probado con otros valores, incluyendo datos inválido
 - peso de cada una de las cargas
 
 ## PROCESOS
-- lectura,revision y guardado de que la cantidad n esté en el rango (3-20);
-- lectura y revision que cada uno de los pesos esté en el rango (5 - 200)
-- lectura y guardado de cada uno de los pesos en el arreglo
-- filtrar la cantidad de cargas en el rango (5-80)
-- filtar la cantidad de cargas superiores al limite
-- sumatoria total
-- sacar el promedio de los pesos
-- identificiar el mayor peso
-- identificar la cantidad de cargas superiores al promedio
+- lectura,revision y guardado de que la cantidad n esté en el rango (3-20); (HECHO)
+
+- lectura y revision que cada uno de los pesos esté en el rango (5 - 200) (HECHO)
+
+- lectura y guardado de cada uno de los pesos en el arreglo (HECHO)
+
+- filtrar la cantidad de cargas en el rango (5-80) (hecho)
+
+- filtar la cantidad de cargas superiores al limite (hecho -el mismo método usado para las cargas entre el rango de 5 a 80 puede ser usado para filtrar los superiores a 80, usando el rango 81 - 200)
+
+- sumatoria total (HECHO)
+
+- sacar el promedio de los pesos (HECHO)
+- identificiar el mayor peso (HECHO)
+
+- identificar la cantidad de cargas superiores al promedio (HECHO)
 - identificar la primer aparicion del mayor peso
+
 - realizar lista con cada uno de los pesos
 ##
 
